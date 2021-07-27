@@ -1,0 +1,124 @@
+@import url("http://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,300,700|Poppins:300,400,500,700");
+@import url("http://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #dde8ec;
+  font-family: IBM Plex Sans;
+  color: #7cb3c5;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.text-color-font {
+  color: #334a52;
+  font-family: IBM Plex Mono;
+}
+
+h1 {
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+a {
+  color: #7cb3c5;
+}
+
+a:hover {
+  color: #bba9c1;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgb(247, 247, 247);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 4px 3px 5px #bba9c1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+div {
+  margin-bottom: 20px;
+
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px #bba9c1;
+  background: #f3e0f9;
+  color: #334a52;
+  font-weight: 400;
+  font-family: IBM Plex Sans;
+}
+
+.icon-size {
+  width: 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+button:hover {
+  background-color:#f3e0f970;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.small-image {
+  width: 40px;
+}
+
+.book_width {
+  width: 150px;
+}
+
+.list-inline-style {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0px;
+}
+
+.padding-right {
+  padding-right: 20px;
+}
